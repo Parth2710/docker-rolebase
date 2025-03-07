@@ -9,6 +9,7 @@ services:
       - mongodb
     environment:
       NEXTAUTH_URL: http://98.81.200.239:3000
+      NEXTAUTH_URL_INTERNAL: http://localhost:3000
       AUTH_SECRET: bmDodEZuSDknEgbJc6Ho1VIJAct1AfNIDxKkLFI05CE=
       DATABASE_URL: mongodb+srv://parthp022712:WERQ6PCKG0s8sp6b@rolebase-app.gh4jg.mongodb.net/rolebase-app?retryWrites=true&w=majority&appName=rolebase-app
 
