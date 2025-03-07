@@ -2,7 +2,7 @@
 FROM node:22-alpine as builder
 WORKDIR /app
 # Clone repository directly into /app
-RUN git clone https://github.com/Parth2710/role-base-app.git .
+RUN git clone https://github.com/Parth2710/role-base-app.git
 # Install dependencies, generate Prisma client, and build the Next.js app
 RUN npm install && npx prisma generate && npm run build
 
