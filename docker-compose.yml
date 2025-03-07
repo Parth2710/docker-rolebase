@@ -5,10 +5,10 @@ services:
     build: .
     ports:
       - "3000:3000"
-    environment:
-      - mongodb+srv://parthp022712:WERQ6PCKG0s8sp6b@rolebase-app.gh4jg.mongodb.net/rolebase-app?retryWrites=true&w=majority&appName=rolebase-app
     depends_on:
       - mongodb
+    env_file:
+      - .env
 
   mongodb:
     image: mongo:6.0
