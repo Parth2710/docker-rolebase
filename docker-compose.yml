@@ -8,7 +8,7 @@ services:
     depends_on:
       - mongodb
     environment:
-      - AUTH_URL="http://52.207.241.144:3000"
+      - AUTH_URL="http://54.211.72.169:3000"
       - AUTH_SECRET="bmDodEZuSDknEgbJc6Ho1VIJAct1AfNIDxKkLFI05CE="
       - DATABASE_URL="mongodb+srv://parthp022712:WERQ6PCKG0s8sp6b@rolebase-app.gh4jg.mongodb.net/rolebase-app?retryWrites=true&w=majority&appName=rolebase-app"
 
